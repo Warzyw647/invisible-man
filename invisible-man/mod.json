@@ -1,0 +1,26 @@
+{
+	"name" : "Invisible Man",
+	"description" : "New unit - Invisible Man",
+	"author": "Graphics and mod: avatar",
+	"contact": "https://www.forum.acidcave.net/topic.php?TID=2961",
+	"version" : "1.0",
+	"modType" : "Creatures",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"compatibility" :
+	{
+		"min" : "1.2.0"
+	},	
+	"changelog" :
+	{
+		"1.0"   : [ "Initial release" ]
+	},
+	"creatures" :
+	[
+		"config/invisibleMan.json"
+	],
+	"objects" :
+    [ 
+		"config/quarkPalace"
+    ]
+}
