@@ -57,13 +57,7 @@
 			"damRed1" :
 			{
 				"type" : "GENERAL_DAMAGE_REDUCTION",
-				"subtype" : 0,
-				"val" : 90
-			},
-			"damRed2" :
-			{
-				"type" : "GENERAL_DAMAGE_REDUCTION",
-				"subtype" : 1,
+				"subtype" : "damageTypeAll",
 				"val" : 90
 			},
 			"lightingVulnerablity" :
@@ -138,7 +132,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primSkill.attack",
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
@@ -146,7 +140,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primSkill.defence",
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
@@ -154,7 +148,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 2,
+					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
@@ -162,7 +156,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
